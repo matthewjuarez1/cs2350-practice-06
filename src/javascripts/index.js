@@ -5,3 +5,10 @@ require.context('../stylesheets/', true, /\.(css|scss)$/i)
 
 // JavaScript
 //TODO
+
+var name = document.getElementById("name-fld")
+function displayMessage(){
+
+  alert("WELCOME " + name + "!")
+
+}
