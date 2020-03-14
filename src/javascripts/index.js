@@ -4,11 +4,11 @@ require.context('../images/', true, /\.(gif|jpg|png|svg|eot|ttf|woff|woff2)$/i)
 require.context('../stylesheets/', true, /\.(css|scss)$/i)
 
 // JavaScript
-//TODO
+//TODO3
 
-var name = document.getElementById("name-fld")
+
 function displayMessage(){
-
+  var name = document.getElementById("name-fld").value
   alert("WELCOME " + name + "!")
 
 }
